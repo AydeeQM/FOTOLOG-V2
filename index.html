@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FOTOLOG - ARTE</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 logo">
+                    <img src="img/fotolog-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="bannerflog">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <h1>LA EXPRESIÓN ARTISTICA</h1>
+            </div>
+        </div>
+    </section>
+    <section id="contenido">
+        <div class="container">
+            <div class="col-md-2 recientes">
+                <a href="" class="fotos">Fotos Recientes</a>
+                <img src="img/img-1.jpg" class="img-circle" >
+                <img src="img/img-2.jpg" alt="" class="img-circle" >
+                <img src="img/img-3.jpg" alt="" class="img-circle" >
+                <img src="img/img-4.jpg" alt="" class="img-circle" >
+            </div>
+            <div class="col-md-8">
+                <img src="img/img-big.jpg" alt="" class="img-thumbnail">
+                <h2>DEFINICIÓN DE ARTE</h2>
+                <p>El arte (del latín ars) es el concepto que engloba todas las creaciones realizadas por el ser humano para expresar una visión sensible acerca del mundo, ya sea real o imaginario. Mediante recursos plásticos, lingüísticos o sonoros, el arte permite expresar ideas, emociones, percepciones y sensaciones.</p>
+            </div>
+            <div class="col-md-2 recientes">
+                <a href="" class="fotos">Fotos Recientes</a>
+                <img src="img/img-1.jpg" class="img-circle" >
+                <img src="img/img-2.jpg" alt="" class="img-circle" >
+                <img src="img/img-3.jpg" alt="" class="img-circle" >
+                <img src="img/img-4.jpg" alt="" class="img-circle" >
+            </div>
+        </div>
+    </section>
+    <section class="formulario">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6" id="caja">
+                    <form Name="formulario" role="form" id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="clave" class="form-control" name="Nombre" autocomplete="off" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-pencil prefix"></i>
+                            <textarea type="text" id="valor" class="md-textarea form-control textarea" rows="3" name="Message" placeholder="Comentario"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-6 text-center">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary pull-right"  value="Guardar datos" id="addBtn">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <button type="button" class="btn btn-primary pull-left"  value="limpiar datos" id="clearBtn">Limpiar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 textcenter respuesta" id="data"></div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <div id="ale"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">Laboratoria 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

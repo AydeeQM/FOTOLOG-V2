@@ -1,0 +1,147 @@
+body {
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    margin-bottom: 30px;
+}
+
+#bannerflog img {
+    height: 100px;
+}
+
+h1{
+    color: DeepPink;
+}
+p {
+    color: #fff;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+}
+
+textarea,
+input {
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid DeepPink;
+    margin-bottom: 20px;
+}
+
+.posteo {
+    color: DeepPink;
+}
+
+.posteo strong {
+    display: block;
+}
+
+.posteo hr {
+    border: 1px solid DeepPink;
+}
+
+.corazon {
+    font-size: 40px;
+    color: gray;
+    text-align: center;
+}
+
+.rojo {
+    color: red;
+}
+
+footer {
+    padding: 10px;
+}
+
+.contact-form {
+    margin-top: 15px;
+}
+
+.contact-form .textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.form-control {
+    box-shadow: none;
+    border-color: #eee;
+    height: 49px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #00b09c;
+}
+
+.form-control-feedback {
+    line-height: 50px;
+}
+
+.main-btn {
+    background: #00b09c;
+    border-color: #00b09c;
+    color: #fff;
+}
+
+.main-btn:hover {
+    background: #00a491;
+    color: #fff;
+}
+
+.form-control-feedback {
+    line-height: 50px;
+    top: 0px;
+}
+
+
+#caja {
+    border-radius: 7px;
+    padding: 5%;
+    background-color: rgba(9, 188, 104, .6);
+}
+.respuesta{
+    border-radius: 7px;
+    padding: 2%;
+    background-color: rgba(9, 188, 104, .6);
+}
+.lista{
+    border-radius: 7px;
+    background-color: rgba(242, 209, 41, .6);
+    padding: 1px 15px;
+}
+.lista p{
+    color: deeppink;
+}
+
+
+#datos {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#data {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-primary {
+    margin: 2%;
+}
