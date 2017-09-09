@@ -17,9 +17,13 @@ const app  = {
     },
 
     addComment: function (event) {
+        if($('#clave').val('') || $('#valor').val('')){
+            alert('Agrega comentario');
+        }else{
         localStorage[app.item.name.val()] = app.item.comment.val();
         $('#data').empty();
         app.recoverData();
+        }
 
     },
     
